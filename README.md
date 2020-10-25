@@ -1,7 +1,7 @@
 # pytest_BDD
-BDD based test for a simple example. 
+BDD based tests for a simple example. 
 
-# How to run the tests 
+# How to run the tests 
 ```sh
 python3 -m venv venv 
 source venv/bin/activate
