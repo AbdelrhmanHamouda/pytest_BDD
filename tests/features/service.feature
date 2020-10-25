@@ -1,3 +1,4 @@
+@API @DuckDuckGo
 Feature: DuckDuckGo Instant Answer API
 
     As a software tester,

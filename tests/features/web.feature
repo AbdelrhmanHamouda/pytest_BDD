@@ -1,3 +1,4 @@
+@Web @UI @DuckDuckGo
 Feature: DuckDuckGo Web Browsing
 
     As a browser user,
