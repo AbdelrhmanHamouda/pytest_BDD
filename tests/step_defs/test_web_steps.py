@@ -6,7 +6,7 @@ Setup and cleanup are handled using hooks.
 For a real test automation project,
 use Page Object Model or Screenplay Pattern to model web interactions.
 Prerequisites:
- - Firefox must be installed.
+ - chrome must be installed.
  - geckodriver must be installed and accessible on the system path.
 """
 
@@ -31,10 +31,11 @@ scenarios('../features/web.feature')
 
 @pytest.fixture
 def browser():
-    # For this example, we will use Firefox
+    # For this example, we will use Chrome
     # You can change this fixture to use other browsers, too.
     # A better practice would be to get browser choice from a config file.
-    b = webdriver.Firefox()
+    b = webdriver.Chrome(
+        "/Users/ahamouda/study_projects/TAU/pytest_BDD/chromedriver")
     b.implicitly_wait(10)
     yield b
     b.quit()

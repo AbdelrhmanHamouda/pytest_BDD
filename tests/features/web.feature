@@ -20,4 +20,4 @@ Feature: DuckDuckGo Web Browsing
             a decent respect to the opinions of mankind requires that they should
             declare the causes which impel them to the separation.
             """
-        Then one of the results contain "Declaration of Independence"
+        Then one of the results contains "Declaration of Independence"
