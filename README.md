@@ -1,5 +1,7 @@
 # pytest_BDD
 BDD based tests for a simple example. 
+Tests are written in Python with pytest, pytest-bdd.
+Features file is written in Gherkin.
 
 # How to run the tests 
 ```sh
